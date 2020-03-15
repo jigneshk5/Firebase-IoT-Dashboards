@@ -7,12 +7,12 @@
 
 ## FIREBASE WORKING
 
-![](img/s22.png)
+![](s22.png)
 
 
-## Real time Database
+## REAL TIME DATABASE
 
-![](rdbms.jpg)
+![](rdbms.png)
 
 
 ## DATA VISUALISATION ON DASHBOARD
