@@ -3,6 +3,6 @@
 2. Install npm packages in the "root" by following command:
 - npm install 
 3. Run the Server
-- Use following command in root :- node sqlserver/index.js
+- Use following command in root :- node server/index.js
 					
 - The App will be running on "http://localhost:2000/".
