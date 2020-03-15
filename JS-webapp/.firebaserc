@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "test": "cloud-iot-c5aab",
+    "firebase-IoT-dashboard": "cloud-iot-c5aab",
+    "smart": "smartparking-62de8",
+    "iot_guy": "iot-dashboard-44fd9",
+    "iot": "iotguy-dashboard"
+  }
+}
