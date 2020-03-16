@@ -1,5 +1,11 @@
 # IoT Session on FireBase
 
+## DEPLOYED APPS
+
+- JS APP - https://iotguy-dashboard.firebaseapp.com/ 
+
+- NODE JS APP - https://iotguy-dashboard.herokuapp.com/
+
 ## CIRCUIT DIAGRAM
 
 ![](mqtt1.png)
