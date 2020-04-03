@@ -1,5 +1,5 @@
 {
-  "name": "imovies",
+  "name": "iotguy-dashboard",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,13 +12,11 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.5",
     "ejs": "^3.0.1",
     "express": "^4.16.4",
     "firebase": "^7.10.0",
-    "firebase-admin": "^8.10.0",
-    "firebase-functions": "^3.3.0",
-    "swagger-ui-express": "^4.0.2",
-    "sweetalert2": "^9.10.0"
+    "firebase-admin": "^8.10.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>dashboard</title>
+    <title>Firebase</title>
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css">
@@ -36,8 +36,7 @@
             <div class="quickstart-user-details-container">
                 User ID: <span id="quickstart-sign-in-status"><%= uid %></span><br>
               User Siged In with: <span id="quickstart-sign-in-status"><%= email %></span><br>
-              Last Signed In on: <span id="quickstart-sign-in-status"><%= metadata.lastSignInTime %></span><br>
-              Account created on: <span id="quickstart-sign-in-status"><%= metadata.creationTime %></span><br>
+        
             </div>
           </div>
         </div>
@@ -147,8 +146,9 @@
   <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
 
   <!-- Add Firebase products that you want to use -->
-  <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
+
   <script>
       // Initialize Firebase
   var config = {
@@ -158,9 +158,12 @@
     projectId: "iotguy-dashboard",
     storageBucket: "iotguy-dashboard.appspot.com",
     messagingSenderId: "249564343788",
-    appId: "1:249564343788:web:b7004b7c8e01eba925a4c9"
+    appId: "1:249564343788:web:b7004b7c8e01eba925a4c9",
+    measurementId: "G-NDWXDZ2CSV"
   };
   firebase.initializeApp(config);
+  firebase.analytics();
+
   </script>  
   <script src="/js/script.js"></script>
 </body>
