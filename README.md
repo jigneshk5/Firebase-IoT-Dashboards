@@ -4,7 +4,7 @@
 
 - JS APP - https://iotguy-dashboard.firebaseapp.com/ 
 
-- NODE JS APP - https://iotguy-dashboard.herokuapp.com/
+- NODE JS APP - https://firebase-iot-dashboard.herokuapp.com/
 
 ## CIRCUIT DIAGRAM
 
