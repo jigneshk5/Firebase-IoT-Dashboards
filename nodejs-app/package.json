@@ -14,7 +14,7 @@
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.5",
     "ejs": "^3.0.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "firebase": "^7.10.0",
     "firebase-admin": "^8.10.0"
   },
